@@ -1,0 +1,58 @@
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 100vw;
+    width: 100%;
+    height: 100vh;
+    gap: 150px;
+    position:relative;
+    
+  
+  }
+  
+  .image-item {
+    margin-top:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .gallery-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  
+  h1  {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #3e2654;
+  }
+
+  .image-item .text-explain{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+  
+    background-color:var(--cor-background-body2);
+    margin: 0;
+    padding: 20px;
+  }
+
+ .text{
+    text-align: justify;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400; 
+    word-wrap: break-word;
+    max-width: 300px;
+    height: fit-content;
+    color: white;
+    margin: 0;
+    padding: 10px;
+  }
+  
