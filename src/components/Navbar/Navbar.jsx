@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom";
 import logoPetSite from "../../assets/images/logoPetSite.png";
 import './Navbar.css';
 const Navbar = () =>  {
@@ -12,23 +12,37 @@ const Navbar = () =>  {
           <nav className =  "Nav" >
             <ul className = "menu">
                 <li className = "navItem">
-                    <p>Início</p>
+                  <p>
+                     <Link className = "link" to="/PetComputacao/">Home</Link>
+                  </p>
+
                 </li>
-                <li className = "navItem">
-                    <p>Sobre</p>
+              <li className = "navItem">
+               <p>
+                  <Link className = "link" to="/PetComputacao/sobre">Sobre</Link>
+               </p>
+              </li>
+              <li  className = "navItem">
+               <p>
+                  <Link className = "link" to="/PetComputacao/projetos">Projetos</Link>
+               </p>
+              
+              </li>
+              <li  className = "navItem">
+                 <p>
+                 <Link className = "link" to="/PetComputacao/certficados">Certificados</Link>
+                 </p>
+              </li>
+              <li  className = "navItem">
+                 <p>
+                 <Link className = "link" to="/PetComputacao/galeria">Galeria</Link>
+                 </p>
               </li>
               <li className = "navItem">
-                 <p>Projetos</p>
-              </li>
-              <li  className = "navItem">
-                 <p>Certificados</p>
-              </li>
-              <li  className = "navItem">
-                 <p>Galeria</p>
-              </li>
-              <li  className = "navItem">
-                 <p>Contatos</p>
-              </li>
+                  <p>
+                     <Link className = "link" to="/PetComputacao/contatos">Contatos</Link>   
+                  </p>
+               </li>   
             </ul>
     </nav>
     </div>

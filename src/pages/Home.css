@@ -9,6 +9,7 @@
     gap: 150px;
     position:relative;
     
+    
   
   }
   
@@ -44,6 +45,7 @@
   }
 
  .text{
+  text-decoration: none;
     text-align: justify;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 1.2em;
