@@ -1,7 +1,7 @@
 import Navbar from "./../components/Navbar/Navbar";
 import Footer from "./../components/Footer/Footer";
 
-function Sobre (){
+function Projetos(){
 
     return (
       <>
@@ -10,4 +10,4 @@ function Sobre (){
       </>
     );
 }
-export default Sobre;
+export default Projetos;
