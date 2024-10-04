@@ -2,7 +2,7 @@
 import logoPetSite from "../../assets/images/logoPetSite.png";
 import './Navbar.css';
 const Navbar = () =>  {
-   //navbar temporário, defiitivo será implemtado após a definição das rotas 
+   //navbar temporário, definitivo será implemtado após a definição das rotas 
     return (
       <div className="mainContainer">
         <div className="logoPet">
@@ -21,7 +21,7 @@ const Navbar = () =>  {
                  <p>Projetos</p>
               </li>
               <li  className = "navItem">
-                 <p>Cerificados</p>
+                 <p>Certificados</p>
               </li>
               <li  className = "navItem">
                  <p>Galeria</p>

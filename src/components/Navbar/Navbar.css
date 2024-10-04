@@ -36,10 +36,14 @@
     list-style-type: none; 
     overflow: hidden;
   }
-  .navItem {
+.navItem  {
     float: left; 
     margin-left: 70px;
     margin-top: 85px;
+
+  }
+
+  .navItem p{
     font-family: 'Roboto Flex', sans-serif;
     font-size: 1.8em;
     font-weight: 700; 

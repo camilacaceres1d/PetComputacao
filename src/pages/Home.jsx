@@ -1,6 +1,7 @@
 import Navbar from "./../components/Navbar/Navbar";
 import Art_graphs from "./../components/Background_Art/Art_graphs";
 import Footer from "./../components/Footer/Footer";
+import News from "./../components/News/News"
 import "./Home.css";
 import ensino from "./../assets/images/abra-o-livro.png";
 import pesquisa from "./../assets/images/big-search-len.png";
@@ -53,7 +54,7 @@ function App() {
           </div>
         </div>
       </div>
-
+      <News/>
       <Footer />
     </>
   );
