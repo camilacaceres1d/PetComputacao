@@ -22,5 +22,5 @@ Para rodar o ambiente de desenvolvimento use:
 npm run dev
 ```
 
-Acesse o deploy do site em: https://github.com/camilacaceres1d/PetComputacao/
+Acesse o deploy do site em: https://camilacaceres1d.github.io/PetComputacao/
 
