@@ -8,3 +8,19 @@ A plataforma será um espaço dedicado à divulgação de projetos desenvolvidos
 Outro destaque do PetSite será a galeria de fotos e vídeos de eventos organizados ou com a participação do PET Computação, permitindo que a comunidade tenha uma visão abrangente das atividades e conquistas do grupo. Isso não apenas fortalece o reconhecimento das ações do PET, mas também serve como um arquivo histórico que celebra o impacto do programa ao longo do tempo.
 
 Por fim, o PetSite terá uma função essencial de introduzir e apresentar o PET Computação para a comunidade acadêmica e externa, mostrando seus objetivos, missões, valores e a importância de suas atividades na formação dos alunos. Assim, o site não só centraliza informações, mas também atua como uma ferramenta estratégica de integração e divulgação do trabalho desenvolvido pelo PET Computação da UFMS.
+
+## Ambiente de Desenvolvimento 
+
+Para executar primeiro instale as dependências com o seguinte comando:
+
+```bash
+npm i
+```
+Para rodar o ambiente de desenvolvimento use: 
+
+```bash
+npm run dev
+```
+
+Acesse o deploy do site em: https://github.com/camilacaceres1d/PetComputacao/
+
