@@ -25,12 +25,12 @@ Para entender como o framework React funciona, acesse os links abaixo:
  Sudo apt install nodejs
 ```
 
-# Para instalar as dependências do projeto degite esse comando no terminal: 
+## Para instalar as dependências do projeto digite esse comando no terminal: 
 
 ```bash
  npm i
 ```
-# Para Executar o projeto digite esse comado no terminal:
+## Para Executar o projeto digite esse comado no terminal:
 
 ```bash
  npm run dev 
