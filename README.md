@@ -22,7 +22,7 @@ Por fim, o PetSite terá uma função essencial de introduzir e apresentar o PET
 - Instale o interpretador de javaScript Node.js em https://nodejs.org/en/download/
 - Se você utiliza Linux, instale com esse comando:
 ```bash
- Sudo apt install nodejs
+ sudo apt install nodejs
 ```
 
 ## Para instalar as dependências do projeto digite esse comando no terminal: 
