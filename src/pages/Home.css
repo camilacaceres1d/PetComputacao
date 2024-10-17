@@ -8,6 +8,8 @@
     height: 100vh;
     gap: 150px;
     position:relative;
+  
+    
     
     
   
@@ -27,9 +29,9 @@
     margin-bottom: 50px;
   }
   
-  h1  {
+  h1 {
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: 500;
     color: #3e2654;
   }
@@ -57,4 +59,6 @@
     margin: 0;
     padding: 10px;
   }
+
+
   
