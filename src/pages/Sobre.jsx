@@ -1,5 +1,6 @@
 import Navbar from "./../components/Navbar/Navbar";
 import Footer from "./../components/Footer/Footer";
+import News from "./../components/News/News";
 import "./Sobre.css";
 function Sobre (){
 
@@ -30,6 +31,7 @@ function Sobre (){
         </div>
     </div>
 </div>
+      <News/>
       <Footer/>
       </>
     );

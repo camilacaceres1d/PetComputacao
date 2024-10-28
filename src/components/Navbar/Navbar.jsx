@@ -4,7 +4,7 @@ import './Navbar.css';
 const Navbar = () =>  {
    //navbar temporário, definitivo será implemtado após a definição das rotas 
     return (
-      <div className="mainContainer">
+      <div className="nav-container">
         <div className="logoPet">
          <img src = {logoPetSite} alt = "" />
         </div>
@@ -30,7 +30,7 @@ const Navbar = () =>  {
               </li>
               <li  className = "navItem">
                  <p>
-                 <Link className = "link" to="/PetComputacao/certficados">Certificados</Link>
+                 <Link className = "link" to="/PetComputacao/certificados">Certificados</Link>
                  </p>
               </li>
               <li  className = "navItem">
