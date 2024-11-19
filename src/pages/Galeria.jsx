@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './Galeria.css';
 import Art_graphs from "./../components/Background_Art/Art_graphs";
+import News from "../components/News/News";
 
 function Galeria() {
   const [activeIndex, setActiveIndex] = React.useState(0);
@@ -27,8 +28,12 @@ function Galeria() {
   };
 
   return (
-    <React.Fragment>
-      <Navbar/>
+    <>
+    
+     
+      <main className="main-gallery" >
+        <Navbar/>
+     
       <div className="background-art">
         <Art_graphs />
       </div>
@@ -81,9 +86,12 @@ function Galeria() {
             </a>
           </div>
         </div>
-      </div>
+      </div> 
+    </main>
+      <News/>
       <Footer/>   
-    </React.Fragment>
+      </>
+  
   );
 }
 

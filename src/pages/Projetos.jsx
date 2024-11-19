@@ -18,13 +18,13 @@ function Projetos(){
     return (
       <>
       <Navbar/>
-      <div className = "sobre-container">
-      <div class = "box-sobre" > 
-        <div class="title-sobre">
+      <div className = "projects-container">
+      <div class = "box-projects" > 
+        <div class="title-projects">
             <h1>Projetos</h1>
         </div>
         <div class = "itens" >
-            <article>
+            <article className="grid-projects">
             
             <Card 
               title="Green Computing" 

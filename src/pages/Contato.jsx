@@ -1,23 +1,57 @@
 import Navbar from "./../components/Navbar/Navbar";
 import Footer from "./../components/Footer/Footer";
 import News from "./../components/News/News";
-import { Html, Button } from "@react-email/components";
+import React from 'react';
+import { useState } from "react";
 function Contato (){
+  
+  
+  const [subject, setSubject] = useState('');
+  const [body, setBody] = useState('');
 
-    return (
-      <>
-      <Navbar/>
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // E-mail fixo como destinatário
+    const email = "camilacardosocaceres@gmail.com";
+
+    // Redireciona para o Gmail com os dados do assunto e corpo preenchidos pelo usuário
+    window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  
+  };
+
+  return (
+    <>
+    <Navbar/>
+    <form onSubmit={handleSubmit}>
       <div>
-      <Html lang="en" dir="ltr">
-      <Button href="https://example.com" style={{ color: "#61dafb" }}>
-        Click me
-      </Button>
-    </Html>
+        <label>
+          Assunto:
+          <input
+            type="text"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            required
+          />
+        </label>
       </div>
-
-      <News/>
-      <Footer/>
-      </>
+      <div>
+        <label>
+          Mensagem:
+          <textarea
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+            required
+          />
+        </label>
+      </div>
+      <button type="submit">Enviar e-mail</button>
+    </form>
+    <News/>
+    <Footer/>
+    
+    </>
+   
     );
 }
 export default Contato;

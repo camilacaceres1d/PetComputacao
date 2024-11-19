@@ -1,4 +1,4 @@
-.sobre-container {
+.projects-container {
     font-family: 'Roboto Flex', sans-serif;
     margin: 20px;
     padding: 0;
@@ -9,12 +9,12 @@
     flex-direction: column;
 }
 
-.box-sobre {
+.box-projects {
     width: 80%;
     max-width: 1200px;
 }
 
-.title-sobre {
+.title-projects {
     height: 10%;
     background: linear-gradient(45deg, var(--cor-background-body1),var(--cor-background-body2));
     border-radius: 10px;
@@ -22,13 +22,13 @@
     padding-top:30px;
 }
 
-.title-sobre h1 {
+.title-projects h1 {
     margin: 0;
     font-size: 2.5em;
     color: white;
 }
 
-article {
+.grid-projects {
     font-size: 1.2em;
     line-height: 1.6em;
     text-align: justify;

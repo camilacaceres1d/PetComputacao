@@ -1,8 +1,9 @@
 .sobre-container {
     font-family: 'Roboto Flex', sans-serif;
-    margin: 20px;
+    margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
