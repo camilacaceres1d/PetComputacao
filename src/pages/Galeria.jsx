@@ -29,10 +29,10 @@ function Galeria() {
 
   return (
     <>
-    
+      <Navbar/>
      
       <main className="main-gallery" >
-        <Navbar/>
+      
      
       <div className="background-art">
         <Art_graphs />
